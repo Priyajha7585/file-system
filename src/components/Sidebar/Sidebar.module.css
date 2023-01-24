@@ -1,0 +1,20 @@
+.container{
+    background-color: var(--light-gray);
+    width: 256px;
+    height: 100%;
+    
+}
+.root{
+    padding: 32px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #AFB2B6 100%;
+}
+.list{
+    border: 2px solid black;
+    padding: 32px;
+}
+
+.sublist{
+    border-left: 2px solid var(--dark-gray);
+}
