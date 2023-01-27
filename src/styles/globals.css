@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 :root {
 
-  --light-gray : #F9FAFC 100%;
-  --off-white: #DDE0E4 50%;
-  --dark-gray: #EEEFF1 100%;
+  --light-gray : #F9FAFC;
+  --off-white: #DDE0E4;
+  --dark-gray: #EEEFF1;
+  --sublist-font: #535B62;;
   --font-family: 'Lato', sans-serif;
 
   
