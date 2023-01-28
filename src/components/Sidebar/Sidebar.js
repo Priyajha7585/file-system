@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from './Sidebar.module.css'
 import {IoMdArrowDropup} from 'react-icons/io';
 import {IoMdArrowDropdown} from 'react-icons/io';
+import Link from 'next/link';
 
 const Sidebar = ({folders}) => {
     const [show, setShow] = useState(0);
@@ -21,10 +22,11 @@ const Sidebar = ({folders}) => {
     }
   return (
     <div className={styles.container}>
-        
-        <div className={styles.root}>
-            ROOT
-        </div>
+        <Link href={`/`}>
+            <div className={styles.root}>
+                ROOT
+            </div>
+        </Link>
         {folders!==0 ? folders.map((folder)=>(
             <div key={folder.id}>
                 <div className={styles.list} onClick={()=>updateShow(folder.id)}>

@@ -40,12 +40,9 @@ const PopupWindow = ({path}) => {
         {
             refreshData();
         }
-        // console.log(data);
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        // console.log(formData);
-        // console.log(path.join("/"))
         createFolder();
         setFormData({
             type:"",
@@ -55,10 +52,8 @@ const PopupWindow = ({path}) => {
             date:"",
             subFilesAndFolders:[]
         })
-        // alert(formData.type+" created successfully!!!")
     }
   return (
-    
         <Popup trigger=
             {<button className={styles.button}><Image src={CreateNew} alt="Create New"/> </button>}
             modal nested>
@@ -69,9 +64,9 @@ const PopupWindow = ({path}) => {
                     </div>
                     <form>
                         <div className={styles.popup_checkbox_button}>
-                            <input type="radio" id="file" name="type" value="File" onChange={handleChange}/>
+                            <input type="radio" id="file" name="type" value="file" onChange={handleChange}/>
                             <label htmlFor="file">File</label>
-                            <input type="radio" id="folder" name="type" value="Folder" onChange={handleChange}/>
+                            <input type="radio" id="folder" name="type" value="folder" onChange={handleChange}/>
                             <label htmlFor="folder">Folder</label>
                         </div>
                         <div className={styles.popup_input}>
@@ -84,10 +79,8 @@ const PopupWindow = ({path}) => {
                             <button onClick={handleSubmit}>Create</button>
                         </div>
                     </form>
-
                 </div>)
             }
-            
         </Popup>
   )
 }
