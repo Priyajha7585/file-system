@@ -7,8 +7,10 @@ import styles from './Mainwindow.module.css';
 import { useRouter } from 'next/router';
 
 const Mainwindow = ({folders}) => {
+    const [contextTooltip, setContextTooltip] = useState(false);
     const router = useRouter();
     const params = router.query["params"];
+    
     return (
     <div className={styles.container}>
         {folders!==0 ? folders.map((fileOrfolder)=>
@@ -16,11 +18,19 @@ const Mainwindow = ({folders}) => {
           <div key={fileOrfolder.id}>
           {fileOrfolder.type==="file" || fileOrfolder.name.includes('.') ?
           <File fileName={fileOrfolder.name}/>:
-          <Link href={`/root/${params===undefined ? fileOrfolder.name : params.join("/")+"/"+fileOrfolder.name}`}><Folder folderName={fileOrfolder.name}/></Link>}
+          <>
+          <Link href={`/root/${params===undefined ? fileOrfolder.name : params.join("/")+"/"+fileOrfolder.name}`} 
+          >
+            <Folder folderName={fileOrfolder.name}/>
+            
+            </Link>
+          </>
+          }
           </div>
         )
         ) : ""}
-        <PopupWindow path={params}/>        
+        <PopupWindow path={params}/>  
+            
     </div>
   )
 }

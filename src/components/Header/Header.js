@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Header = ({folders}) => {
   const [input, setInput] = useState('');
   const router = useRouter();
-  const filteredFolder = folders.filter((f)=>f.name.toLowerCase().includes(input.toLowerCase()));
+  const filteredFolder = folders.length!==0 ? folders.filter((f)=>f.name.toLowerCase().includes(input.toLowerCase())) : [];
   return (
     <div className={styles.container}>
       <div className={styles.header_container}>

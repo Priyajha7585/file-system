@@ -29,7 +29,7 @@ export const getServerSideProps = async({params}) => {
   return {
       props:{
           params,
-          data: data['subFilesAndFolders'] ? data['subFilesAndFolders'] : 0
+          data: data['subFilesAndFolders'] ? data['subFilesAndFolders'] : []
       }
   }
 }

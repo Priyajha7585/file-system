@@ -1,3 +1,4 @@
+// export const rootfolders = [];
 export const rootfolders = [
     {
         id: 1,
@@ -9,11 +10,19 @@ export const rootfolders = [
         subFilesAndFolders: [
             {
                 id: 1,
-                name: "song1.js"
+                name: "song1.js",
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"file"
             },
             {
                 id: 2,
-                name: "song2.html"
+                name: "song2.html",
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"file"
             },
             {
                 id: 3,
@@ -22,35 +31,16 @@ export const rootfolders = [
                 creatorName: "Priya Jha1",
                 createdOn: "26-01-2023",
                 type:"folder",
-                subFilesAndFolders: [
-                    {
-                        id: 1,
-                        name: "file1.js"
-                    },
-                    {
-                        id: 2,
-                        name: "file2.js"
-                    },
-                    {
-                        id: 3,
-                        name: "Songfolder1",
-                        size: "256kb",
-                        creatorName: "Priya Jha1",
-                        createdOn: "26-01-2023",
-                        type:"folder",
-                        subFilesAndFolders: [
-                            {
-                                id: 4,
-                                name: "SongFile.js"
-                            }
-                        ]
-                    }
-                ]
+                subFilesAndFolders: []
             },
             {
                 id: 4,
                 name: "Songfolder2",
-                type: "folder"
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"folder",
+                subFilesAndFolders: []
             }
         ]
     },
@@ -64,97 +54,37 @@ export const rootfolders = [
         subFilesAndFolders: [
             {
                 id: 1,
-                name: "movie1.js"
+                name: "movie1.js",
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"file"
             },
             {
                 id: 2,
-                name: "movie2.html"
+                name: "movie2.html",
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"file"
             },
             {
                 id: 3,
-                name: "Moviefolder1"
+                name: "Moviefolder1",
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"folder",
+                subFilesAndFolders: []
             },
             {
                 id: 4,
-                name: "Moviefolder2"
-            }
-        ]
-    },
-    {
-        id: 3,
-        name: "Videos",
-        size: "256kb",
-        creatorName: "Priya Jha3",
-        createdOn: "26-01-2023",
-        type:"folder",
-        subFilesAndFolders: [
-            {
-                id: 1,
-                name: "video1.js"
-            },
-            {
-                id: 2,
-                name: "video2.html"
-            },
-            {
-                id: 3,
-                name: "Videofolder1"
-            },
-            {
-                id: 4,
-                name: "Videofolder2"
-            }
-        ]
-    },
-    {
-        id: 4,
-        name: "Images",
-        size: "256kb",
-        creatorName: "Priya Jha4",
-        createdOn: "26-01-2023",
-        type:"folder",
-        subFilesAndFolders: [
-            {
-                id: 1,
-                name: "test1.js"
-            },
-            {
-                id: 2,
-                name: "test2.html"
-            },
-            {
-                id: 3,
-                name: "Testfolder1"
-            },
-            {
-                id: 4,
-                name: "Testfolder2"
-            }
-        ]
-    },
-    {
-        id: 5,
-        name: "Screenshots",
-        size: "256kb",
-        creatorName: "Priya Jha5",
-        createdOn: "26-01-2023",
-        type:"folder",
-        subFilesAndFolders: [
-            {
-                id: 1,
-                name: "screenshot1.js"
-            },
-            {
-                id: 2,
-                name: "screenshot2.html"
-            },
-            {
-                id: 3,
-                name: "Screenshotfolder1"
-            },
-            {
-                id: 4,
-                name: "Screenshotfolder2"
+                name: "Moviefolder2",
+                size: "256kb",
+                creatorName: "Priya Jha1",
+                createdOn: "26-01-2023",
+                type:"folder",
+                subFilesAndFolders: []
             }
         ]
     },
