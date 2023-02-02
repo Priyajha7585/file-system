@@ -1,6 +1,6 @@
 import File from '@/components/File/File';
 import Folder from '@/components/Folder/Folder';
-import PopupWindow from '@/components/Popup/Popup_';
+import PopupWindow from '@/components/Popup/Popup';
 import Link from 'next/link';
 import React from 'react';
 import styles from './Mainwindow.module.css';
