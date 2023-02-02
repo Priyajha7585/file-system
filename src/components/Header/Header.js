@@ -22,7 +22,7 @@ const Header = ({folders}) => {
           </button>
         </div>
         <div className={styles.breadcrumb}>
-          root {router.query.params===undefined ? <>/</> : router.query.params.map((i)=><> / {i}</>)}
+          {router.query.params===undefined ? <>/</> : router.query.params.map((i)=><> / {i}</>)}
         </div>
         <div className={styles.search_input}>
           <FaSearch className={styles.search_input_icon} />
