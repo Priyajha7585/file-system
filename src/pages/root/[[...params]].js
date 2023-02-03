@@ -17,15 +17,8 @@ export default Root
 
 export const getServerSideProps = async({params}) => {
   const path = params['params'].length>1 ? params['params'].join("/") : params['params'][0]
-  // console.log(`http://localhost:3000/api/root/${path}`)
-  const response = await fetch(`http://localhost:3000/api/root/${path}`);
-  // console.log("*******************************")
-  // console.log(response)
-  // console.log("*******************************")
+  const response = await fetch(`https://file-system-git-main-priyajha7585.vercel.app//${path}`);
   const data = await response.json();
-  // const errorCode = response.ok ? false : response.statusCode;
-  // console.log(errorCode)
-  // console.log(data)
   return {
       props:{
           params,
