@@ -7,9 +7,6 @@ import FolderImage from '../../assets/Shape.png'
 import Image from 'next/image';
 
 const InfoPopup = ({fileOrfolder}) => {
-  console.log("Infopopup")
-  console.log(fileOrfolder.createdOn)
-  console.log(fileOrfolder.creatorName)
   return (
     <Popup trigger=
         {<button className={styles.button}>Get Info</button>}
