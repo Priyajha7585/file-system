@@ -17,7 +17,7 @@ export default Root
 
 export const getServerSideProps = async({params}) => {
   const path = params['params'].length>1 ? params['params'].join("/") : params['params'][0]
-  const response = await fetch(`https://file-system-git-main-priyajha7585.vercel.app//${path}`);
+  const response = await fetch(`https://file-system-git-main-priyajha7585.vercel.app/${path}`);
   const data = await response.json();
   return {
       props:{
