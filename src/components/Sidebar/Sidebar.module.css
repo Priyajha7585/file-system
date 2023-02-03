@@ -1,7 +1,9 @@
 
 .container{
     background-color: var(--light-gray);
-    width: 256px;
+    /* width: 256px; */
+    width: 25vw;
+    min-width: 150px;
     height: 100vh;
     
 }

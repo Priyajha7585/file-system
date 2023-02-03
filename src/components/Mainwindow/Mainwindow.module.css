@@ -1,12 +1,16 @@
 .container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-gap: 10px;
     padding-left: 24px;
-    padding-top: 10px
-    /* justify-content: space-evenly; */
+    padding-top: 10px; */
+    padding-left: 24px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    gap: 20px;
 }
-
 
 .options_div {
     height: 145px;

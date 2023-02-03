@@ -16,6 +16,7 @@ export default function Home({folders}) {
 export const getStaticProps = async() => {
   const res = await fetch('http://localhost:3000/api');
   const data = await res.json();
+  // .sort((a,b)=>(a.type>b.type)?-1:(a.type<b.type)?1 : 0)
   return{
     props:{
       folders:data,

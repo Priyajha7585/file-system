@@ -27,7 +27,7 @@ const Sidebar = ({folders}) => {
                 ROOT
             </div>
         </Link>
-        {folders.length!==0 ? folders.map((folder)=>(
+        {folders.length!==0 ? folders.sort((a,b)=>(a.type>b.type)?-1:(a.type<b.type)?1 : 0).map((folder)=>(
             <div key={folder.id}>
                 <div className={styles.list} onClick={()=>updateShow(folder.id)}>
                     {folder.name} {folder.type==="folder" && <button className={styles.list_button} >{show===folder.id?<IoMdArrowDropup/>:<IoMdArrowDropdown/>}</button>}

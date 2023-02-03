@@ -28,7 +28,7 @@ const Mainwindow = ({folders}) => {
      {fileOrfolder.type==="file" || fileOrfolder.name.includes('.') ?
      
      <Popup trigger=
-        {<Link href={``} >
+        {<Link href='#'>
          <File fileName={fileOrfolder.name}/>
          </Link>} on='right-click'
         position="bottom center">
