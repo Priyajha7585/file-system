@@ -1,0 +1,57 @@
+.container{
+    padding-left: 24px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    gap: 20px;
+}
+
+.options_div {
+    height: 145px;
+    width: 159px;
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.05);
+    border: 1px solid rgba(221,224,228,0.50);
+    border-radius: 8px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.options_div_option{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    width: 159px;
+    justify-content: center;
+    cursor: pointer;
+}
+.options_div_option_Link{
+    display: flex;
+    align-items: center;
+    width: 159px;
+    justify-content: center;
+}
+
+.options_div_option:hover{
+    background-color: var(--dark-gray);
+}
+
+.options_div_option_delete{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.options_div_option_delete button{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.options_div_option_delete:hover{
+    background-color: var(--dark-gray);
+}
