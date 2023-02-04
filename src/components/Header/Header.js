@@ -1,6 +1,4 @@
-
-
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styles from './Header.module.css'
 import {FaSearch} from 'react-icons/fa'
 import TopArrow from '../../assets/arrow-green-circle.png'

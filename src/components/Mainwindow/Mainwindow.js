@@ -54,7 +54,6 @@ const Mainwindow = ({folders}) => {
      </div>
     )
     ) : ""}
-    {/* <PopupWindow path={params}/>  */}
     <PopupWindow path={params} router={router}/>
   </div>
  )

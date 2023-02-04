@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Folder.module.css';
 import FolderImage from '../../assets/Shape.png'
 import Image from 'next/image';
-import Tooltip from '../Tooltip/Tooltip';
 
-const Folder = ({folderName, contextTooltip}) => {
-  // const [contextTooltip, setContextTooltip] = useState(false);
+const Folder = ({folderName}) => {
   return (
     <>
     <div className={styles.container}>

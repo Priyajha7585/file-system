@@ -27,26 +27,3 @@ export const getServerSideProps = async({params}) => {
       }
   }
 }
-
-// const Root = () => {
-//   const [folders, setFolders] = useState([]);
-//   const [loading, setLoading] = useState(true);
-//   const router = useRouter();
-//   const params = router.query.params;
-//   console.log("**************************88")
-//   console.log(params)
-//   const getSubFolders = async (params) => {
-//     const path = params.length>1 ? params.join("/") : params[0];
-//     console.log(`http://localhost:3000/api/root/${path}`)
-//     const response = await fetch(`http://localhost:3000/api/root/${path}`);
-//     const data = await response.json();
-//     setFolders(data['subFilesAndFolders'] ? data['subFilesAndFolders'] : 0)
-//     setLoading(false)
-//   }
-//   useEffect(()=>{
-//     getSubFolders(params);
-//   })
-//   if(loading)
-//   {
-//     return<h2>loading</h2>
-//   }

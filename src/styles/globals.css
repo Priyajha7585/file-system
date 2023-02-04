@@ -6,20 +6,8 @@
   --dark-gray: #EEEFF1;
   --sublist-font: #535B62;;
   --font-family: 'Lato', sans-serif;
-
-  
 }
 
-[data-theme="dark"]{
-  --text-color: #f0f0f0;
-  --text-color-secondary: #b3c5cd;
-
-  --primary-color: #21b6b7;
-
-  --background-color: #252329;
-  --background-color-dark: #3c393f;
-  --background-color-light: #120f13;
-}
 
 * {
   box-sizing: border-box;
@@ -40,9 +28,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/* 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
