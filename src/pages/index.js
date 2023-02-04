@@ -15,7 +15,7 @@ export default function Home({folders}) {
 
 export const getServerSideProps = async() => {
   // const res = await fetch('http://localhost:3000/api');
-  const res = await fetch('https://file-system-ens8qe406-priyajha7585.vercel.app/api')
+  const res = await fetch('https://file-system-by-priya-jha.vercel.app/api')
   const data = await res.json();
   return{
     props:{
