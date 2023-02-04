@@ -29,7 +29,7 @@
 
 <br/>
 
-<img src="src/assets/Screenshot.png" alt="Logo" width="100%" height="400" />
+<img src="src/assets/Screenshot.png" alt="Logo" width="100%" height="450" />
 
 <br/>
 This is a Fullstack File Management Project.
