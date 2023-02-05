@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Priyajha7585/file-system">
     <!-- <img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" alt="Logo" width="80" height="80"> -->
     <img src="./src/assets/Shape.png" alt="Logo" width="80" height="80">
   </a>
@@ -39,7 +39,7 @@ Features:<br>
 * User can navigate through folders
 * User can create unlimited files and folders
 * User can view the details of a file or folder
-* User cal delete the file or folder
+* User can delete the file or folder
 * Search functionality is there
 
 <br/>
@@ -58,7 +58,6 @@ Features:<br>
 * ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 * ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
